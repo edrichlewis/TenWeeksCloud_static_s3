@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hides scroll bars for the video background */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Puts the video behind other content */
+        }
+
+        .content {
+            position: relative;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.35);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This HTML page is part of a Hosting Static Website Project</h1>
+    </header>
+    
+    <!-- Video Background -->
+    <video autoplay loop muted class="video-background">
+        <source src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/rN0W64K4ipau8gxv/videoblocks-cloud-computing-concept-animation-cloud-technology-background-cloud-storage-cloud-symbol-placed-in-cube-after-firewall-seamless-loop-animation_h8ukxewbx__c85769c0783ee3c8c48d759e11bbf463__P360.mp4" type="video/mp4">
+        <!-- You can add additional video formats here for broader browser compatibility -->
+        <!-- <source src="video.webm" type="video/webm"> -->
+    </video>
+
+    <div class="content">
+        <h2>Welcome to Our Static Website</h2>
+        <p>This is a beautiful HTML page showcasing our static website project. Here, we provide information about our project along with some stunning images.</p>
+        <img src="">
+        <img src="https://example.com/image2.jpg" alt="Beautiful Image 2">
+        <p>Feel free to explore our website and learn more about our project.</p>
+    </div>
+</body>
+</html>
