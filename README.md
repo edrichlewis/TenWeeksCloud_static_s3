@@ -1,4 +1,4 @@
-# TenWeeksCloud_static_s3
+![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/f92c54a1-e938-4936-b153-2896b519745f)# TenWeeksCloud_static_s3
 This Repo is created for Project1 #10WeeksOfCloudOps hosted by Piyush Sachdeva
 
 Prerequisites:
@@ -133,7 +133,41 @@ Step8:
 NOW WHEN WE USE URL: WWW.EDRICH.STORE THE PAGE WILL BE DISPLAYED IN THE BROWSER
 
 Lets Continue to build a Pipeline
+Step9:
+1. Browse for Code Pipeline, click on create a new pipeline
+2. Give the name to the pipeline and keep the default settings and click next
+   ![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/22b0989e-4265-42dd-9e83-df4f91c33233)
 
+4. We can select the source provider which we have used in this project is Git Hub, we choose Git Hub (version)
+   ![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/b032d8fe-bd25-411f-9a75-ebc8d6d0ef93)
+
+5. Connect to Git Hub by providing the credentials
+6. We can select the required Repository from the dropdown
+7. Select the Branch
+8. Change detection portion we will select as Git Hub webhook i.e. when any changes are made in the repository the files are pushed to the S3 bucket through Code Pipeline
+ ![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/cb10cadc-7c9c-46c3-9380-0e1a4aff233a)
+
+9. We will skip the build provider since we are hosting a static website from S3 bucket
+    ![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/d30ffa97-eb31-4a94-8a22-8d8f2a59a064)
+
+10. Deploy provider will select Amazon S3, select the bucket name we created from the drop-down (www.edrich.store) and then click on create a pipeline
+    ![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/64296254-442f-4bd8-a283-a256a74b7363)
+ 
+11. To validate go to Git Hub Repo make any changes and commit the changes, The Pipeline should be triggered and we can check in S3 storage if the changes are reflected in the bucket or we can browse the URL and check if changes made are reflected.
+
+Here we complete our project of Hosting Static Website using S3 bucket and implementing the Pipeline
+
+Learning:
+1. DNS
+2. Cloudfront - OAI, ACM certificate
+3. S3 Storage
+4. Cloud Pipeline
+
+
+Reference:
+https://www.youtube.com/watch?v=UVvc_RtOoWg&list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG&index=2  - For more detailed video.
+
+Thank you
 
 
 
