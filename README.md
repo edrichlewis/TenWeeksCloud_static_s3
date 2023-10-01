@@ -1,5 +1,7 @@
-![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/f92c54a1-e938-4936-b153-2896b519745f)# TenWeeksCloud_static_s3
 This Repo is created for Project1 #10WeeksOfCloudOps hosted by Piyush Sachdeva
+
+![image](https://github.com/edrichlewis/TenWeeksCloud_static_s3/assets/105597780/f92c54a1-e938-4936-b153-2896b519745f)# TenWeeksCloud_static_s3
+
 
 Prerequisites:
 
