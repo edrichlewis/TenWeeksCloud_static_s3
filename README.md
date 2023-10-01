@@ -132,6 +132,8 @@ Step8:
 
 NOW WHEN WE USE URL: WWW.EDRICH.STORE THE PAGE WILL BE DISPLAYED IN THE BROWSER
 
+Lets Continue to build a Pipeline
+
 
 
 
